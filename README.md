@@ -18,26 +18,30 @@ The Anti-Blinding Headlight System is a project that combines Python and Arduino
    git clone https://github.com/Himani-Vasanth/AntiBlindingHeadlightSystem.git
 
 Navigate to the Python directory:
+```sh
 cd AntiBlindingHeadlightSystem/python
 
 Install the required Python packages:
+```sh
 pip install opencv-python pyserial
 
-Arduino Setup
+### Arduino Setup
 
-    1. Open AntiBlindingHeadlightSystem.ino in the Arduino IDE.
-    2. Connect your Arduino UNO to your computer.
-    3. Select the correct board and port in the Arduino IDE.
-    4. Upload the sketch to your Arduino.
+1. Open AntiBlindingHeadlightSystem.ino in the Arduino IDE.
+2. Connect your Arduino UNO to your computer.
+3. Select the correct board and port in the Arduino IDE.
+4. Upload the sketch to your Arduino.
 
-Usage
-    1. Run the Python Script:
+## Usage
+1. Run the Python Script:
+```sh
     python car_detection.py
+
     Ensure the file paths in car_detection.py for haarcascade_car.xml and cars_video.mp4 are correctly set.
     
-    2. Arduino:
+2. Arduino:
     Make sure your Arduino is connected and running the uploaded sketch.
 
-Configuration
+## Configuration
 
     File Paths: Update the paths in the car_detection.py script to match the locations of the Haar cascade file and video file.
